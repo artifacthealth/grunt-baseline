@@ -41,12 +41,10 @@
   },
   "keywords": [
     "gruntplugin",
-    "tsreflect",
-    "reflection",
-    "typescript",
-    "json",
-    "declaration",
-    "type",
-    "introspection"
+    "performance",
+    "baseline",
+    "benchmark",
+    "compare",
+    "speed"
   ]
 }
