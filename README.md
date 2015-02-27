@@ -21,7 +21,7 @@ grunt.loadNpmTasks('grunt-baseline');
 
 ## The "baseline" task
 
-This is a Grunt task for [Baseline](https://github.com/artifacthealth/baseline). Baseline is a benchmarking framework
+This is a Grunt task for [Baseline](https://github.com/artifacthealth/baseline), a benchmarking framework
 for [node.js](http://nodejs.org/) where the results of a test run can be saved and used to determine if performance changes
 in the future. Alternatively, tests can be compared against each other. Baseline supports both synchronous and asynchronous
 tests using a simple syntax. For more information see the [documentation](https://github.com/artifacthealth/baseline).
@@ -82,12 +82,10 @@ Indicates whether or not to use colors in reporter. If undefined, colors are use
 Type: `string`
 Default value: `default`
 
-The reporter to use. Available values are 'default' and 'minimal'. The default reporter outputs results for each test.
-The minimal reporter only outputs results for tests that have changed from baseline. Otherwise, only the summary is
-reported.
+See [Baseline documentation](https://github.com/artifacthealth/baseline) for information on available reporters.
 
-If a value other than 'default' or 'minimal' is provided, the task tries to a load a CommonJS module with the specified
-name and use that module as the reporter.
+If a value is not a built-in reporter, the task tries to a load a CommonJS module with the specified name and use that
+module as the reporter.
 
 #### failIfSlower
 Type: `boolean`
