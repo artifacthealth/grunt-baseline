@@ -26,9 +26,7 @@ for [node.js](http://nodejs.org/).
 
 Baseline allow the results of a test run to be saved and used to determine if performance changes in the future.
 Alternatively, tests can be compared against each other. Baseline supports both synchronous and asynchronous
-tests using a simple syntax.
-
-For more information see the [documentation](https://github.com/artifacthealth/baseline).
+tests using a simple syntax. For more information see the [documentation](https://github.com/artifacthealth/baseline).
 
 ### Overview
 In your project's Gruntfile, add a section named `baseline` to the data object passed into `grunt.initConfig()`.
