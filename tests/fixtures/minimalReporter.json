@@ -1,0 +1,12 @@
+{
+    "baseline": {
+        "minimalReporter": {
+            "options": {
+                "reporter": "minimal"
+            },
+            "src": [
+                "simple.bench.js"
+            ]
+        }
+    }
+}

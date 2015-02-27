@@ -1,0 +1,13 @@
+{
+    "baseline": {
+        "failIfSlower": {
+            "options": {
+                "failIfSlower": true,
+                "baselinePath": "simple.baseline.json"
+            },
+            "src": [
+                "simple.bench.js"
+            ]
+        }
+    }
+}

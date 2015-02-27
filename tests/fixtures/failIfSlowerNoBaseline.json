@@ -1,0 +1,12 @@
+{
+    "baseline": {
+        "failIfSlowerNoBaseline": {
+            "options": {
+                "failIfSlower": true
+            },
+            "src": [
+                "simple.bench.js"
+            ]
+        }
+    }
+}

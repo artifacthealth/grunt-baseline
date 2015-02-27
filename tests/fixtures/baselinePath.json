@@ -1,0 +1,12 @@
+{
+    "baseline": {
+        "baselinePath": {
+            "options": {
+                "baselinePath": "simple.baseline.json"
+            },
+            "src": [
+                "simple.bench.js"
+            ]
+        }
+    }
+}

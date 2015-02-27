@@ -1,0 +1,9 @@
+{
+    "baseline": {
+        "simple": {
+            "src": [
+                "simple.bench.js"
+            ]
+        }
+    }
+}

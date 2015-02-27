@@ -1,0 +1,52 @@
+{
+  "name": "grunt-baseline",
+  "description": "Grunt plugin for benchmarking node.js modules that allows performance to be compared to an established baseline.",
+  "version": "0.1.2",
+  "author": {
+    "name": "Artifact Health, LLC",
+    "url": "http://www.artifacthealth.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artifacthealth/grunt-baseline.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "tasks/baseline.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "baseline": "^0.1.6"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-mocha-test": "^0.12.2",
+    "grunt-typescript": "0.6.1",
+    "mocha": "^2.0.1",
+    "typescript": "1.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "tsreflect",
+    "reflection",
+    "typescript",
+    "json",
+    "declaration",
+    "type",
+    "introspection"
+  ]
+}
