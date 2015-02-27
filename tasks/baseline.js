@@ -40,8 +40,8 @@ function task(grunt) {
         if (options.threshold !== undefined) {
             baseline.threshold = options.threshold;
         }
-        if (options.maxTime !== undefined) {
-            baseline.maxTime = options.maxTime;
+        if (options.minTime !== undefined) {
+            baseline.maxTime = options.minTime;
         }
         if (options.timeout !== undefined) {
             baseline.timeout = options.timeout;
@@ -62,7 +62,7 @@ function task(grunt) {
             }
             try {
                 var Reporter;
-                switch (options.reporter) {
+                switch (options.reporter.toLowerCase()) {
                     case "default":
                         Reporter = Baseline.DefaultReporter;
                         break;

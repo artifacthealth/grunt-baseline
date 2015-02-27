@@ -55,7 +55,7 @@ function task(grunt: IGrunt) {
             // load reporter
             try {
                 var Reporter: any;
-                switch(options.reporter) {
+                switch(options.reporter.toLowerCase()) {
                     case "default":
                         Reporter = Baseline.DefaultReporter;
                         break;
