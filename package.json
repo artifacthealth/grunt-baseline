@@ -1,7 +1,7 @@
 {
   "name": "grunt-baseline",
   "description": "Grunt plugin for benchmarking node.js modules that allows performance to be compared to an established baseline.",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "author": {
     "name": "Artifact Health, LLC",
     "url": "http://www.artifacthealth.com"
@@ -23,7 +23,7 @@
     "test": "grunt"
   },
   "dependencies": {
-    "baseline": "^0.1.6"
+    "baseline": "^0.1.8"
   },
   "devDependencies": {
     "chai": "^1.9.2",
